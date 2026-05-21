@@ -2,4 +2,16 @@
 #Darian Ismael
 #Mauricio Fernandez
 #Jose Cabrera
-print ("hola mundo")
+
+#inicio
+#CASO:Gestion de inventario en una tienda de una tienda
+#entrada 
+
+
+#proceso
+
+
+#salida
+
+
+#fin
