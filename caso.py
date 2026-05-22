@@ -1,5 +1,5 @@
 #Cristofer Choque
-#Darian Ismael
+#Darian Rodriguez
 #Mauricio Fernandez
 #Jose Cabrera
 
