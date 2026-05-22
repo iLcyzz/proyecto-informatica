@@ -76,7 +76,7 @@ def agregar_libro(lista_libros):
         nuevo_libro = Libro(titulo, autor, anio, cantidad, precio)
         lista_libros.append(nuevo_libro)
         
-        print(f"✅ Libro '{titulo}' agregado exitosamente al inventario.")
+        print(f" Libro '{titulo}' agregado exitosamente al inventario.")
         
     except ValueError:
         print(" Error: Ingrese valores numéricos válidos para año, precio y cantidad.")
