@@ -29,7 +29,7 @@ def mostrar_inventario(lista_libros):
     if len(lista_libros) == 0:
         print("El inventario esta vacio. No hay libros para mostrar.")
     else:
-        print("\n--- INVENTARIO COMPLETO ---")
+        print("INVENTARIO COMPLETO")
         for libro in lista_libros:
             print(f"Titulo: {libro.titulo} | Autor: {libro.autor} | Año: {libro.anio} | Cantidad: {libro.cantidad} | Precio: ${libro.precio}")
 def buscar_libro_por_titulo(lista_libros, titulo_buscar):
