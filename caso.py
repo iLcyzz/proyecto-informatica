@@ -36,7 +36,7 @@ def buscar_libro_por_titulo(lista_libros, titulo_buscar):
     encontrado = False
     for libro in lista_libros:
         if libro.titulo.lower() == titulo_buscar.lower():
-            print("\n--- LIBRO ENCONTRADO ---")
+            print("LIBRO ENCONTRADO")
             print(f"Titulo: {libro.titulo}")
             print(f"Autor: {libro.autor}")
             print(f"Año: {libro.anio}")
@@ -47,7 +47,7 @@ def buscar_libro_por_titulo(lista_libros, titulo_buscar):
     if encontrado == False:
         print(f"No se encontro ningun libro con el titulo: '{titulo_buscar}'")
 def agregar_libro(lista_libros):
-    print("\AGREGAR NUEVO LIBRO")
+    print("AGREGAR NUEVO LIBRO")
     titulo = input("Titulo del libro: ")
     autor = input("Autor: ")
     anio = int(input("Año de publicacion: "))
